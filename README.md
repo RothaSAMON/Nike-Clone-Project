@@ -2,7 +2,7 @@
 
 Here is the link to check **the details** of the **NIKE Clone** Website Project : https://nasal-clavicle-f22.notion.site/Nike-Cloning-Project-d4e724a75f7f40ef9cc67419f2eca1dc
 
-Checkout the **Website after deploy** : https://nike-clone.000webhostapp.com/index.html
+Checkout the **Website after deploy** : https://rothasamon.github.io/Nike-Clone-Project/index.html
 
 ## Project Setup & Installation
   1. Prerequisites:
