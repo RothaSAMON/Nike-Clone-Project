@@ -23,10 +23,10 @@ class MainNavbar extends HTMLElement {
               <ul class="sidebar z-50 fixed overflow-y-auto top-0 right-0 h-[100vh] w-[350px] text-[24px] backdrop-blur-12 shadow-left list-none hidden flex-col justify-start bg-white backdrop-blur-blur lg:w-full">
                 <!-- this is a navbar menu -->
                 <button class="h-[50px] mr-auto w-full " id="menu-close" ><a class="h-full w-full px-[30px] flex justify-end items-center text-black " href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-                <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="/public/second-page.html">New & Featured</a><a href="#"></a><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></li>
+                <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/second-page.html">New & Featured</a><a href="#"></a><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></li>
                 <li class="w-full pr-[30px] flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="#">Men</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
-                <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="/public/fifth-page.html">Women</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
-                <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="/public/forth-page.html">Kids</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
+                <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/fifth-page.html">Women</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
+                <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/forth-page.html">Kids</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
                 <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="#">Accessories</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
                 <li class="pr-[30px] w-full flex items-center"><a class="h-full w-full px-[30px] py-[10px] flex items-center text-black" href="#">Sale</a><a href="#"><svg aria-hidden="true" class="pre-chevron chev-root pre-chevron-next d-sm-b d-lg-h" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></a></li>
                 <!-- this is a two logo in the burger -->
@@ -51,8 +51,8 @@ class MainNavbar extends HTMLElement {
                 <!-- this is a 4 icons section -->
                 <div class="mb-[40px]">
                   <div class="flex items-center text-[20px] px-[25px] gap-[20px] pb-[25px]">
-                      <a href="/public/sixth-page.html"><svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5" d="M14.25 3.75C13.01 3.75 12 4.76 12 6.5v7m8.25-3.75H3.75"></path><path stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5" d="M14.25 3.75h4.39l1.61 6v10.5H3.75V9.75l1.61-6h5.14"></path></svg></a>
-                      <a href="/public/sixth-page.html">Bag</a>
+                      <a href=/Nike-Clone-Project/public/sixth-page.html"><svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5" d="M14.25 3.75C13.01 3.75 12 4.76 12 6.5v7m8.25-3.75H3.75"></path><path stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5" d="M14.25 3.75h4.39l1.61 6v10.5H3.75V9.75l1.61-6h5.14"></path></svg></a>
+                      <a href="/Nike-Clone-Project/public/sixth-page.html">Bag</a>
                   </div>
   
                   <div class="flex items-center text-[20px] px-[25px] pb-[25px] gap-[20px]">
@@ -79,10 +79,10 @@ class MainNavbar extends HTMLElement {
               <ul  class="max-w-[1920px] px-[30px] items-center mx-auto flex justify-between">
                   <li class=""><a class="h-full py-[13px] flex items-center text-black" href="/index.html"><img class="w-[60px] hover:opacity-[0.7]" src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="logo"></a></li>
                   <div class="hidden md:flex ml-[200px]">
-                    <li class="hideOnMobile h-[50px] hidden xl:block" id="featured-btn" ><a class="h-full px-[10px] flex items-center text-black" href="/public/second-page.html">New & Feature</a></li>
+                    <li class="hideOnMobile h-[50px] hidden xl:block" id="featured-btn" ><a class="h-full px-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/second-page.html">New & Feature</a></li>
                     <li class="hideOnMobile h-[50px] hidden xl:block" id="featured-btn" ><a class="h-full px-[10px] flex items-center text-black" href="#">Men</a></li>
-                    <li class="hideOnMobile h-[50px] hidden lg:block" id="featured-btn"><a class="h-full px-[10px] flex items-center text-black" href="/public/fifth-page.html">Women</a></li>
-                    <li class="hideOnMobile h-[50px] hidden lg:block" id="featured-btn"><a class="h-full px-[10px] flex items-center text-black" href="/public/forth-page.html">Kids</a></li>
+                    <li class="hideOnMobile h-[50px] hidden lg:block" id="featured-btn"><a class="h-full px-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/fifth-page.html">Women</a></li>
+                    <li class="hideOnMobile h-[50px] hidden lg:block" id="featured-btn"><a class="h-full px-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/forth-page.html">Kids</a></li>
                     <li class="hideOnMobile h-[50px] hidden lg:block" id="featured-btn"><a class="h-full px-[10px] flex items-center text-black" href="#">Accessories</a></li>
                     <li class="hideOnMobile h-[50px] hidden lg:block" id="featured-btn"><a class="h-full px-[10px] flex items-center text-black" href="#">Sale</a></li>
                   </div>
@@ -94,7 +94,7 @@ class MainNavbar extends HTMLElement {
                     </div>
                       <li class="menu-button flex">
                       <a class="h-full flex items-center  px-[10px] text-black lg:hidden" href="#"><svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path></svg></a></li>
-                      <a class="h-full flex items-center px-[10px] text-black" href="/public/sixth-page.html"><svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg></a></li>
+                      <a class="h-full flex items-center px-[10px] text-black" href="/Nike-Clone-Project/public/sixth-page.html"><svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg></a></li>
                       <a class="h-full flex items-center px-[10px] text-black" href="#"><svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none" data-var="glyph" style="display: inline-block;"><path fill="currentColor" d="M12 3a4.5 4.5 0 00-4.5 4.5H9a3 3 0 013-3V3zM7.5 7.5A4.5 4.5 0 0012 12v-1.5a3 3 0 01-3-3H7.5zM12 12a4.5 4.5 0 004.5-4.5H15a3 3 0 01-3 3V12zm4.5-4.5A4.5 4.5 0 0012 3v1.5a3 3 0 013 3h1.5zM4.5 21v-3H3v3h1.5zm0-3a3 3 0 013-3v-1.5A4.5 4.5 0 003 18h1.5zm3-3h9v-1.5h-9V15zm9 0a3 3 0 013 3H21a4.5 4.5 0 00-4.5-4.5V15zm3 3v3H21v-3h-1.5z"></path></svg></a>
                       <!-- this is a burger button -->
                       <a class="h-full flex items-center px-[10px] text-black lg:hidden" id="menu-btn" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a>
@@ -108,53 +108,53 @@ class MainNavbar extends HTMLElement {
                   <div>
                       <h2 class="pb-[20px] text-black">Jordan Family Days</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Shop the Collection</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Shop All Jordan</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">New Release</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Men</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Women</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Kids</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Baseketball</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Shop the Collection</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Shop All Jordan</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">New Release</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Men</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Women</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Kids</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Baseketball</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">New & Featured</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">New Arrivals</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Best Sellers</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Member Product</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">New & Upcoming Drops</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">SNKRS Launch Calendar</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Mother's Day Shop</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Add to Bag to See Price</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Sale: Up to 50% Off</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">New Arrivals</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Best Sellers</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Member Product</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">New & Upcoming Drops</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">SNKRS Launch Calendar</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Mother's Day Shop</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Add to Bag to See Price</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Sale: Up to 50% Off</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">Shop Classics</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Air Jordan 1</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Air Force</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Dunk</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Air Max</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Blazer</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Air Jordan 1</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Air Force</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Dunk</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Air Max</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Blazer</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">New For Men</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Shoes</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Clothing</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Shoes</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Clothing</a></li>
                       </ul>
                       <h2 class="py-[20px] text-black">New For Women</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Shoes</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Clothing</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Shoes</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Clothing</a></li>
                       </ul class="pb-[20px] text-black">
                       <h2 class="py-[20px] text-black">New For Kids</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Shoes</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/second-page.html">Clothing</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Shoes</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/second-page.html">Clothing</a></li>
                       </ul>
                   </div>
               </ul>
@@ -167,68 +167,68 @@ class MainNavbar extends HTMLElement {
                   <div>
                       <h2 class="pb-[20px] text-black">Jordan Family Days</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Shop the Collection</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Shop the Collection</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">New & Featured</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">New Arrivals</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Best Sellers</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Customize with Nike by YOU</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Trending: Nike Life</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">New in Basketball</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Add to Bag to See Price</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Sale: Up to 50% Off</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">New Arrivals</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Best Sellers</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Customize with Nike by YOU</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Trending: Nike Life</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">New in Basketball</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Add to Bag to See Price</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Sale: Up to 50% Off</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">All Shoes</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Lifestyle</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Jordan</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Dunk</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Air Max</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Air Force 1</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Lifestyle</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Jordan</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Dunk</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Air Max</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Air Force 1</a></li>
   
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Training & Gym</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Basketball</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Running</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Nike SB</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Sandals & Slides</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Shoes $100 & Under</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Training & Gym</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Basketball</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Running</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Nike SB</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Sandals & Slides</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Shoes $100 & Under</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">All Clothing</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Jordan</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Matching Sets</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Big & Tall</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Hoodies & Sweatshirts</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Oants & Tights</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Jordan</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Matching Sets</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Big & Tall</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Hoodies & Sweatshirts</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Oants & Tights</a></li>
   
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Jackets & Vests</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Tops & T-Shirts</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Shorts</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Underwear</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Socks</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Jackets & Vests</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Tops & T-Shirts</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Shorts</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Underwear</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Socks</a></li>
                       </ul>
                   </div>
                   <div>
                       <h2 class="pb-[20px] text-black">Shop by Sport</h2>
                       <ul>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Basketball</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Golf</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Soccer</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Running</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Tennis</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Baseketball</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Football</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Training & Gym</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Trall Running</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Swimming</a></li>
-                          <li class="pb-[10px] hover:text-black"><a href="/public/third-page.html">Pickleball</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Basketball</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Golf</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Soccer</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Running</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Tennis</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Baseketball</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Football</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Training & Gym</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Trall Running</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Swimming</a></li>
+                          <li class="pb-[10px] hover:text-black"><a href="/Nike-Clone-Project/public/third-page.html">Pickleball</a></li>
                       </ul>
                   </div>
               </ul>
@@ -554,7 +554,7 @@ connectedCallback() {
         <div class="max-w-[1360px] pt-[60px] px-[40px] mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-4 text-gray-500" id="mainFooterDrop">
                 <ul>			
-                    <h2 class="pb-[24px] lg:cursor-auto cursor-pointer text-black"><a href="/public/second-page.html">Featured</a></h2>
+                    <h2 class="pb-[24px] lg:cursor-auto cursor-pointer text-black"><a href="/Nike-Clone-Project/public/second-page.html">Featured</a></h2>
                     <div class="hidden lg:block">
                         <li class="pb-[16px] hover:text-black"><a href="#">Air Force 1</a></li>
                         <li class="pb-[16px] hover:text-black"><a href="#">Jordan 1</a></li>
@@ -570,7 +570,7 @@ connectedCallback() {
                 </ul>
 
                 <ul>
-                    <h2 class="pb-[24px] lg:cursor-auto cursor-pointer text-black"><a href="/public/third-page.html">Shoes</a></h2>
+                    <h2 class="pb-[24px] lg:cursor-auto cursor-pointer text-black"><a href="/Nike-Clone-Project/public/third-page.html">Shoes</a></h2>
                     <div class="hidden lg:block">
                         <li class="pb-[16px] hover:text-black"><a href="#">All Shoes</a></li>
                         <li class="pb-[16px] hover:text-black"><a href="#">Jordan Shoes</a></li>
@@ -608,7 +608,7 @@ connectedCallback() {
                 </ul>
 
                 <ul>
-                    <h2 class="pb-[24px] lg:cursor-auto cursor-pointer text-black"><a href="/public/forth-page.html">Kids</a></h2>
+                    <h2 class="pb-[24px] lg:cursor-auto cursor-pointer text-black"><a href="/Nike-Clone-Project/public/forth-page.html">Kids</a></h2>
                     <div class="hidden lg:block">
                         <li class="pb-[16px] hover:text-black"><a href="#">Infant & Toddler Shoes</a></li>
                         <li class="pb-[16px] hover:text-black"><a href="#">Kids Shoes</a></li>

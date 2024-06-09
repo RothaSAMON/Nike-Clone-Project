@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nike. Just Do It</title>
+	<link rel="stylesheet" href="../src/style.css">
+	<!-- logo icon of website: Circle logo -->
+	<link rel="icon" href="https://bolt-gcdn.sc-cdn.net/3/lAZdszLkei29W4QGIWtjI?bo=EhgaABoAMgF9OgEEQgYIsoyp9wVIAlASYAE%3D&uc=18">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<!-- roboto font link -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap">
+	<!-- <script src="./tailwind3.js"></script> -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    
+</head>
+<body class="font-[roboto]">
+    <!-- this is navbar -->
+    <main-navbar></main-navbar>
+    <!-- this is the top nav discount section -->
+    <div class="bg-gray-100">
+        <div class="max-w-[1920px] mx-auto p-2 flex justify-center">
+            <a href="#">Mother's Day: Extra 25% Off</a>
+        </div>
+    </div>
+
+
+    <!-- this is main cover img and title -->
+    <div class="">
+        <img class="block md:hidden" src="/Nike-Clone-Project/Images/homePage-Img/main-cover-respon.png" alt="Image">
+        <img class="hidden md:block" src="/Nike-Clone-Project/Images/homePage-Img/main-cover.png" alt="Image">
+        <div class="items-center text-center py-[40px]">
+            <p class="px-[10px] text-[50px] font-bold">MOM GOES THE DISTANCE</p>
+            <p>Gift her everything she needs to run the ultimate marathon.</p>
+            <button class="bg-black text-white px-[20px] py-[6px] my-[20px] rounded-3xl hover:opacity-[0.7]">Shop</button>
+        </div>
+    </div>
+
+    <!-- this is more to explore content -->
+    <div class="max-w-[1920px] px-[30px] mx-auto">
+        <div class="flex justify-end gap-[20px]">
+            <div onclick="pushArrow(0, -1)" class="p-[10px] bg-gray-200 rounded-3xl hover:opacity-[0.7] cursor-pointer"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg></div>
+            <div onclick="pushArrow(0, 1)" class="p-[10px] bg-gray-200 rounded-3xl hover:opacity-[0.7] cursor-pointer"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></div>
+        </div>
+        <div class="slideShow overflow-x-auto py-[20px] flex gap-[20px]">
+            <div class="slide-list flex-none md:relative">
+                <img class="md:w-full w-[330px]" src="/Nike-Clone-Project/Images/homePage-Img/for-mom-on-the-go.png" alt="image">
+                <div class="md:absolute md:bottom-[40px] md:left-[40px] py-[10px]">
+                    <p class="hidden md:block pt-[10px] text-white text-[20px] pb-[20px]">Take her from yoga to HIT</p>
+                    <!-- this is a new responsive text -->
+                    <p class="block md:hidden text-gray-500 py-[10px]">For Moms on the Go</p>
+                    <p class="block md:hidden">Take her from yoga to HIT</p>
+                    <button class="md:bg-white bg-black text-white md:text-black px-[20px] py-[6px] my-[20px] rounded-3xl hover:opacity-[0.7]">Shop</button>
+                </div>
+            </div>
+            <div class="slide-list flex-none md:relative">
+                <img class="md:w-full w-[330px]" src="/Nike-Clone-Project/Images/homePage-Img/for-movie-night.png" alt="image">
+                <div class="md:absolute md:bottom-[40px] md:left-[40px]">
+                    <p class="hidden md:block pt-[10px] text-white text-[20px] pb-[20px]">Give mom the gift of chill</p>
+                    <!-- this is a new responsive text -->
+                    <p class="block md:hidden text-gray-500 py-[10px]">For the Movie Night MVP</p>
+                    <p class="block md:hidden">Give mom the gift of chill.</p>
+                    <button class="md:bg-white bg-black text-white md:text-black px-[20px] py-[6px] my-[20px] rounded-3xl hover:opacity-[0.7]">Shop</button>
+                </div>
+            </div>
+            <div class="slide-list flex-none md:relative">
+                <img class="md:w-full w-[330px]" src="/Nike-Clone-Project/Images/homePage-Img/for-mom-unmatch-style.png" alt="image">
+                <div class="md:absolute md:bottom-[40px] md:left-[40px]">
+                    <p class="hidden md:block pt-[10px] text-white text-[20px] pb-[20px]">For Moms' Unmatched Style</p>
+                    <!-- this is a new responsive text -->
+                    <p class="block md:hidden text-gray-500 py-[10px]">For Moms' Unmatched Style</p>
+                    <p class="block md:hidden">No one does it like her.</p>
+                    <button class="md:bg-white bg-black text-white md:text-black px-[20px] py-[6px] my-[20px] rounded-3xl hover:opacity-[0.7]">Shop</button>
+                </div>
+            </div>
+            <div class="slide-list flex-none md:relative">
+                <img class="md:w-full w-[330px]" src="/Nike-Clone-Project/Images/homePage-Img/for-exceting-style.png" alt="image">
+                <div class="md:absolute md:bottom-[40px] md:left-[40px]">
+                    <p class="hidden md:block pt-[10px] text-white text-[20px] pb-[20px]">Ease into motherhood styles</p>
+                    <!-- this is a new responsive text -->
+                    <p class="block md:hidden text-gray-500 py-[10px]">For Excecting Moms</p>
+                    <p class="block md:hidden">Ease into motherhood styles.</p>
+                    <button class="md:bg-white bg-black text-white md:text-black px-[20px] py-[6px] my-[20px] rounded-3xl hover:opacity-[0.7]">Shop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is a blog of the 4 pic content -->
+    <div class="my-[60px]">
+        <div class="md:flex text-white">
+            <mom-cards-component data-source="card-data"></mom-cards-component>
+            <mom-cards-component data-source="card-data2"></mom-cards-component>
+        </div>
+    </div>
+
+
+    <!-- this is the middle title & 2 button of the content -->
+    <div class="max-w-[1920px] mx-auto">
+        <div class="items-center text-center py-[20px]">
+            <p class="md:text-[50px] text-[40px] font-bold">NEW THIS WEEK</p>
+            <div>
+                <button class="bg-black text-white px-[20px] py-[6px] my-[20px] rounded-3xl hover:opacity-[0.7]">Shop Women's New Arrivals</button>
+                <button class="bg-black text-white px-[20px] py-[6px] md:my-[20px] rounded-3xl hover:opacity-[0.7]">Shop Men's New Arrivals</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is a cover image of the title New This Week -->
+    <div>
+        <img class="hidden md:block" src="/Nike-Clone-Project/Images/homePage-Img/cover-newThisWeek.png" alt="Image">
+        <img class="block md:hidden w-full" src="/Nike-Clone-Project/Images/homePage-Img/cover-newThisWeek-respon.png" alt="Image">
+    </div>
+
+    <!-- this is classic spotlight content -->
+    <div class="relative max-w-[1920px] px-[30px] my-[60px] mx-auto">
+        <p class="md:text-[48px] text-[28px] font-bold">SHOP BY CLASSICS</p>
+        
+        <div onclick="pushArrow(1, -1)" class="absolute hidden md:block top-[50%] left-[8%] p-[10px] bg-white rounded-3xl hover:opacity-[0.7] cursor-pointer"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg></div>
+        <div onclick="pushArrow(1, 1)" class="absolute hidden md:block top-[50%] right-[8%] p-[10px] bg-white rounded-3xl hover:opacity-[0.7] cursor-pointer"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></div>
+        
+        <div class="slideShow overflow-x-auto py-[20px] flex">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/air-jordan-1.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/dunk.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/air-force-1.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/movero.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/air-max.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/air-jordan-1.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/dunk.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/air-force-1.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/movero.png" alt="image">
+            <img class="slide-list w-[350px] md:w-[400px] px-[10px]" src="/Nike-Clone-Project/Images/homePage-Img/air-max.png" alt="image">
+        </div>
+    </div>
+
+    <!-- this is Nike Membership content -->
+    <div class="max-w-[1920px] px-[30px] my-[60px] mx-auto">
+        <div class="flex justify-between">
+            <p class="text-[30px]">Nike Membership</p>
+            <div class="flex gap-[10px] px-[20px] items-center">
+                <div onclick="pushArrow(2, -1)" class="bg-gray-200 p-[10px] rounded-3xl hover:opacity-[0.7] hover:cursor-pointer md:block hidden"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M15.525 18.966L8.558 12l6.967-6.967"></path></svg></div>
+                <div onclick="pushArrow(2, 1)" class="bg-gray-200 p-[10px] rounded-3xl hover:opacity-[0.7] hover:cursor-pointer md:block hidden"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path stroke="currentColor" stroke-width="1.5" d="M8.474 18.966L15.44 12 8.474 5.033"></path></svg></div>
+            </div>
+        </div>
+        <!-- This is membership card -->
+        <membership-cards-component data-source="card-data"></membership-cards-component>
+    </div>
+	
+    <!-- this is the footer section -->
+	<bottom-menu></bottom-menu>
+	
+    <!-- this is a footer  -->
+    <footer-section></footer-section>
+    <script src="/Nike-Clone-Project//assets/component/component.js"></script>
+    <script type="module" src="../assets/component/momCards-compo.js"></script>
+    <script type="module" src="../assets/component/membershipCarousel-compo.js"></script>
+    <script src="/Nike-Clone-Project/assets/homePage.js"></script>
+</body>
+</html>
