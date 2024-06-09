@@ -77,7 +77,7 @@ class MainNavbar extends HTMLElement {
             <!-- this one is shown in the navbar normal size -->
             <div class="bg-white">
               <ul  class="max-w-[1920px] px-[30px] items-center mx-auto flex justify-between">
-                  <li class=""><a class="h-full py-[13px] flex items-center text-black" href="/index.html"><img class="w-[60px] hover:opacity-[0.7]" src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="logo"></a></li>
+                  <li class=""><a class="h-full py-[13px] flex items-center text-black" href="/Nike-Clone-Project/index.html"><img class="w-[60px] hover:opacity-[0.7]" src="https://i.pinimg.com/originals/20/60/2d/20602d43cc993811e5a6bd1886af4f33.png" alt="logo"></a></li>
                   <div class="hidden md:flex ml-[200px]">
                     <li class="hideOnMobile h-[50px] hidden xl:block" id="featured-btn" ><a class="h-full px-[10px] flex items-center text-black" href="/Nike-Clone-Project/public/second-page.html">New & Feature</a></li>
                     <li class="hideOnMobile h-[50px] hidden xl:block" id="featured-btn" ><a class="h-full px-[10px] flex items-center text-black" href="#">Men</a></li>
