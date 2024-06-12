@@ -1,20 +1,20 @@
     // import { cardData, cardData2 } from '../data/membershipCarousel-data.js';
     const cardData = [
         {
-            img: "/Images/homePage-Img/the-y2Kolor.png",
+            img: "/Nike-Clone-Project/Images/homePage-Img/the-y2Kolor.png",
             titleSm: "New from Nike Running",
             titleXl: "The Y2Kolor Collection",
-            imgSec: "/Images/homePage-Img/vapor-edge-grid.png",
+            imgSec: "/Nike-Clone-Project/Images/homePage-Img/vapor-edge-grid.png",
             titleSmSec: "Ja'Marr Chase's Picks",
             titleXlSec: "AF1s, Vapor Edge Cleats & More",
         },
 ]
 const cardData2 = [
     {
-        img: "/Images/homePage-Img/air-max-dn-grid.png",
+        img: "/Nike-Clone-Project/Images/homePage-Img/air-max-dn-grid.png",
         titleSm: "Feel the Unreal",
         titleXl: "Air Max Dn",
-        imgSec: "/Images/homePage-Img/chloe-kim.png",
+        imgSec: "/Nike-Clone-Project/Images/homePage-Img/chloe-kim.png",
         titleSmSec: "Make Your Move",
         titleXlSec: "Chloe Kim's Fitness Essentials",
     },
