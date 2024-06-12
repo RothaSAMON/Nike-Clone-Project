@@ -862,7 +862,7 @@ class HeaderStoreSection extends HTMLElement {
 
 customElements.define("header-store-section", HeaderStoreSection);
 
-//this is a sidebar static component
+//This is a sidebar static component
 class SidebarSection extends HTMLElement {
     connectedCallback() {
     this.innerHTML = `
@@ -891,93 +891,93 @@ class SidebarSection extends HTMLElement {
         <hr class="my-2 text-black">
 
 
-        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+        <!-- Group 1 -->
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group1', 1)">
             <div class="flex justify-between w-full items-center" onclick="dropDown()">
-            <span class="text-[16px] text-black">Gender</span>
-            <span class="text-sm rotate-180" id="arrow">
-                <i class="bi bi-chevron-down"></i>
-            </span>
+                <span class="text-[16px] text-black">Gender</span>
+                    <span class="text-sm rotate-0" id="group1arrow1">
+                    <i class="bi bi-chevron-down"></i>
+                </span>
             </div>
         </div>
-        <div class=" leading-7 text-left text-sm mt-2 w-[90%] mx-auto" id="submenu">
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Men</h1>
-            </div>
-            
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Women</h1>
-            </div>
-
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Unisex</h1>
-            </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group1submenu1">
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Men</h1>
+                </div>
+                
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Women</h1>
+                </div>
+        
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Unisex</h1>
+                </div>
         </div>
         <hr class="my-2 text-black">
-
-
-
-        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+        
+        
+        
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group1', 2)">
             <div class="flex justify-between w-full items-center" onclick="dropDown2()">
                 <span class="text-[16px] text-black">Kids</span>
-                <span class="text-sm rotate-180" id="arrow2">
-                <i class="bi bi-chevron-down"></i>
+                <span class="text-sm rotate-0" id="group1arrow2">
+                    <i class="bi bi-chevron-down"></i>
                 </span>
             </div>
-            </div>
-            <div class=" leading-7 text-left text-sm mt-2 w-[90%] mx-auto" id="submenu2">
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Boys</h1>
-            </div>
-            
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Girls</h1>
-            </div>
+        </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group1submenu2">
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Boys</h1>
+                </div>
+                
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Girls</h1>
+                </div>
         </div>
         <hr class="my-2 text-black">
-            
-
-
-        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+        
+        
+        
+        
+        <!-- Group 2 -->
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group2', 1)">
             <div class="flex justify-between w-full items-center" onclick="dropDown3()">
                 <span class="text-[16px] text-black">Sale & Offers</span>
-                <span class="text-sm rotate-180" id="arrow3">
-                <i class="bi bi-chevron-down"></i>
+                <span class="text-sm rotate-0" id="group2arrow1">
+                    <i class="bi bi-chevron-down"></i>
                 </span>
-            </div>
-            </div>
-            <div class=" leading-7 text-left text-sm mt-2 w-[90%] mx-auto" id="submenu3">
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Price in Bag</h1>
-            </div>
-            
-            <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Sale</h1>
             </div>
         </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group2submenu1">
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Price in Bag</h1>
+                </div>
+                
+                <div class="flex items-center gap-2">
+                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Sale</h1>
+                </div>
+        </div>
         <hr class="my-2 text-black">
-
-
-
-        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+        
+        
+        
+        
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group2', 2)">
             <div class="flex justify-between w-full items-center" onclick="dropDown4()">
                 <span class="text-[16px] text-black">Colors</span>
-                <span class="text-sm rotate-180" id="arrow4">
-                <i class="bi bi-chevron-down"></i>
+                <span class="text-sm rotate-0" id="group2arrow2">
+                    <i class="bi bi-chevron-down"></i>
                 </span>
             </div>
-            </div>
-            <div class=" leading-7 text-left text-[12px] mt-2 w-[80%] mx-auto " id="submenu4">
+        </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group2submenu2">
             <!-- this controll the flex one line of the colors: 3 colors -->
             <div class="grid grid-cols-3 gap-4">
                 <div class="pb-[20px]">
@@ -989,7 +989,7 @@ class SidebarSection extends HTMLElement {
                     <button class="w-8 h-8 border border-gray-400 bg-blue-500 rounded-3xl"></button>
                     <h1 class="cursor-pointer hover:text-gray-700">Blue</h1>
                 </div>
-
+        
                 <div class="pb-[20px]">
                     <button class="w-8 h-8 border border-gray-400 bg-orange-950 rounded-3xl"></button>
                     <h1 class="cursor-pointer hover:text-gray-700">Brown</h1>
@@ -1006,7 +1006,7 @@ class SidebarSection extends HTMLElement {
                     <button class="w-8 h-8 border border-gray-400 bg-gray-500 rounded-3xl"></button>
                     <h1 class="cursor-pointer hover:text-gray-700">Grey</h1>
                 </div>
-
+        
                 <div class="pb-[20px]">
                     <button class="w-8 h-8 border border-gray-400 bg-pink-500 rounded-3xl"></button>
                     <h1 class="cursor-pointer hover:text-gray-700">Pink</h1>
@@ -1024,98 +1024,95 @@ class SidebarSection extends HTMLElement {
                     <h1 class="cursor-pointer hover:text-gray-700">White</h1>
                 </div>
             </div>
-            </div>
-            <hr class="my-2 text-black">
-
-
-
-            <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+        </div>
+        <hr class="my-2 text-black">
+        
+        
+        <!-- Group 5 -->
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group3', 1)">
             <div class="flex justify-between w-full items-center" onclick="dropDown5()">
                 <span class="text-[16px] text-black">Shop by Price</span>
-                <span class="text-sm rotate-180" id="arrow5">
-                <i class="bi bi-chevron-down"></i>
+                <span class="text-sm rotate-0" id="group3arrow1">
+                    <i class="bi bi-chevron-down"></i>
                 </span>
             </div>
-            </div>
-            <div class=" leading-7 text-left text-sm mt-2 w-[90%] mx-auto" id="submenu5">
-                <div class="flex items-center gap-2">
-                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$0 - $25</h1>
-                </div>
-                
-                <div class="flex items-center gap-2">
-                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$25 - $50</h1>
-                </div>
-
-                <div class="flex items-center gap-2">
-                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$50 - $100</h1>
-                </div>
-
-                <div class="flex items-center gap-2">
+        </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group3submenu1">
+            <div class="flex items-center gap-2">
                 <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$100 - $150</h1>
-                </div>
-                <div class="flex items-center gap-2">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">+ More</h1>
-                </div>
+                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$0 - $25</h1>
             </div>
-            <hr class="my-2 text-black">
-
-
-            <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+            
+            <div class="flex items-center gap-2">
+                <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$25 - $50</h1>
+            </div>
+        
+            <div class="flex items-center gap-2">
+                <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$50 - $100</h1>
+            </div>
+        
+            <div class="flex items-center gap-2">
+            <input class="w-5 h-5 cursor-pointer" type="checkbox">
+            <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">$100 - $150</h1>
+            </div>
+            <div class="flex items-center gap-2">
+            <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">+ More</h1>
+            </div>
+        </div>
+        <hr class="my-2 text-black">
+        
+        
+        <!-- Group 6 -->
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group3', 2)">
             <div class="flex justify-between w-full items-center" onclick="dropDown6()">
                 <span class="text-[16px] text-black">Brand</span>
-                <span class="text-sm rotate-180" id="arrow6">
-                <i class="bi bi-chevron-down"></i>
+                <span class="text-sm rotate-0" id="group3arrow2">
+                    <i class="bi bi-chevron-down"></i>
                 </span>
             </div>
+        </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group3submenu2">
+            <div class="flex items-center gap-2">
+                <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Jordan</h1>
             </div>
-            <div class=" leading-7 text-left text-sm mt-2 w-[90%] mx-auto" id="submenu6">
-                <div class="flex items-center gap-2">
-                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Jordan</h1>
-                </div>
-            </div>
-            <hr class="my-2 text-black">
-
-
-
-
-            <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer ">
-            <!-- <i class="bi bi-chat-left-text-fill"></i> -->
+        </div>
+        <hr class="my-2 text-black">
+        
+        
+        <!-- Group 7 -->
+        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer" onclick="dropDown('group4', 1)">
             <div class="flex justify-between w-full items-center" onclick="dropDown7()">
                 <span class="text-[16px] text-black">Sports & Activities</span>
-                <span class="text-sm rotate-180" id="arrow7">
-                <i class="bi bi-chevron-down"></i>
+                <span class="text-sm rotate-0" id="group4arrow1">
+                    <i class="bi bi-chevron-down"></i>
                 </span>
             </div>
+        </div>
+        <div class="leading-7 text-left text-sm mt-2 w-[90%] mx-auto hidden" id="group4submenu1">
+            <div class="flex items-center gap-2">
+                <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Lifestyle</h1>
             </div>
-            <div class=" leading-7 text-left text-sm mt-2 w-[90%] mx-auto" id="submenu7">
-                <div class="flex items-center gap-2">
-                    <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Lifestyle</h1>
-                </div>
-                <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Running</h1>
-                </div>
-                <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Training & Gym</h1>
-                </div>
-                <div class="flex items-center gap-2">
-                <input class="w-5 h-5 cursor-pointer" type="checkbox">
-                    <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Basketball</h1>
-                </div>
-                <div class="flex items-center gap-2">
-                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">+ More</h1>
-                </div>
+            <div class="flex items-center gap-2">
+            <input class="w-5 h-5 cursor-pointer" type="checkbox">
+            <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Running</h1>
             </div>
-            <hr class="my-2 text-black">
+            <div class="flex items-center gap-2">
+            <input class="w-5 h-5 cursor-pointer" type="checkbox">
+            <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Training & Gym</h1>
+            </div>
+            <div class="flex items-center gap-2">
+            <input class="w-5 h-5 cursor-pointer" type="checkbox">
+                <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">Basketball</h1>
+            </div>
+            <div class="flex items-center gap-2">
+            <h1 class="cursor-pointer hover:text-gray-700 rounded-md mt-1">+ More</h1>
+            </div>
+        </div>
+        <hr class="my-2 text-black">
     </div>
     `;
     }
@@ -1254,41 +1251,9 @@ const footerDropdown4 = document.getElementById('footerDropdown4')
     })
 
 
-// sidebar drop dow
-function dropDown() {
-    document.querySelector('#submenu').classList.toggle('hidden')
-    document.querySelector('#arrow').classList.toggle('rotate-0')
-    }
-    dropDown()
-
-    function dropDown2() {
-    document.querySelector('#submenu2').classList.toggle('hidden')
-    document.querySelector('#arrow2').classList.toggle('rotate-0')
-    }
-    dropDown2()
-
-    function dropDown3() {
-    document.querySelector('#submenu3').classList.toggle('hidden')
-    document.querySelector('#arrow3').classList.toggle('rotate-0')
-    }
-    dropDown3()
-    function dropDown4() {
-    document.querySelector('#submenu4').classList.toggle('hidden')
-    document.querySelector('#arrow4').classList.toggle('rotate-0')
-    }
-    dropDown4()
-    function dropDown5() {
-    document.querySelector('#submenu5').classList.toggle('hidden')
-    document.querySelector('#arrow5').classList.toggle('rotate-0')
-    }
-    dropDown5()
-    function dropDown6() {
-    document.querySelector('#submenu6').classList.toggle('hidden')
-    document.querySelector('#arrow6').classList.toggle('rotate-0')
-    }
-    dropDown6()
-    function dropDown7() {
-    document.querySelector('#submenu7').classList.toggle('hidden')
-    document.querySelector('#arrow7').classList.toggle('rotate-0')
-    }
-    dropDown7()
+// This is sidebar drop down
+// Generic dropdown function
+function dropDown(group, index) {
+    document.querySelector(`#${group}submenu${index}`).classList.toggle('hidden');
+    document.querySelector(`#${group}arrow${index}`).classList.toggle('rotate-180');
+}
